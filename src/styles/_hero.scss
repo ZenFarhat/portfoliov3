@@ -2,11 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
+}
+
+.hero__text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 .base__span {
-  color: $base-color;
+  background: $gradient;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero__text {
@@ -34,4 +43,10 @@
 
 .file__icon {
   color: #d7221a;
+}
+
+.hero__splash {
+  position: absolute;
+  z-index: -1;
+  right: -500px;
 }

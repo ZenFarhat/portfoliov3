@@ -23,16 +23,12 @@ nav {
 }
 
 .nav__contact {
-  background-color: $base-color;
+  background: $gradient;
   padding: 0.5rem 1rem;
   color: white;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s ease-in-out;
-
-  &:hover {
-    background-color: $lighter-base;
-  }
+  transition: all 0.3s ease-in-out;
 }
