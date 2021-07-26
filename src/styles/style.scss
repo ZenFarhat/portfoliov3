@@ -16,6 +16,7 @@ $gradient: linear-gradient(to left, #38d39f, #38a4d3);
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 h1,
@@ -48,6 +49,7 @@ a {
 .section {
   width: 80vw;
   margin: 0 auto;
+  padding: 2rem 0;
 }
 
 // COMPONENT STYLES
