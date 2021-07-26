@@ -1,0 +1,37 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.base__span {
+  color: $base-color;
+}
+
+.hero__text {
+  margin: 20px 0;
+}
+
+.hero__icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__icon {
+  font-size: 2rem;
+  transition: transform 0.25s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+}
+
+.linkedin__icon {
+  color: #0077b5;
+}
+
+.file__icon {
+  color: #d7221a;
+}
