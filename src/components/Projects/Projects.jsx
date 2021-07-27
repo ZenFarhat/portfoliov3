@@ -26,8 +26,8 @@ function Projects() {
         <Project
           colour='red'
           img={movieProject}
-          name='reviewTube'
-          tech='HTML, CSS, JS, React, AXIOS API-FETCHING'
+          name='ReviewTube'
+          tech='HTML, CSS, JS, React, AXIOS'
           deployLink='https://reviewtube-867da.web.app/'
           codeLink='https://github.com/ZenFarhat/reviewTube'
         />

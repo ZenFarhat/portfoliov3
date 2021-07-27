@@ -27,7 +27,7 @@ nav {
 
 .nav__contact {
   background: $gradient;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -47,5 +47,6 @@ nav {
   nav {
     width: 95vw;
     height: 50px;
+    margin: 0 auto;
   }
 }

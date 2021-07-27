@@ -293,82 +293,6 @@ form {
     width: 250px;
   }
 }
-@-webkit-keyframes header1 {
-  from {
-    transform: translateY(-100%);
-    opacity: 0%;
-  }
-  to {
-    transform: translateX(0%);
-    opacity: 100%;
-  }
-}
-@keyframes header1 {
-  from {
-    transform: translateY(-100%);
-    opacity: 0%;
-  }
-  to {
-    transform: translateX(0%);
-    opacity: 100%;
-  }
-}
-@-webkit-keyframes main-text {
-  from {
-    transform: translateX(-50%);
-    opacity: 0%;
-  }
-  to {
-    transform: translateX(0%);
-    opacity: 100%;
-  }
-}
-@keyframes main-text {
-  from {
-    transform: translateX(-50%);
-    opacity: 0%;
-  }
-  to {
-    transform: translateX(0%);
-    opacity: 100%;
-  }
-}
-@-webkit-keyframes icons-animation {
-  from {
-    transform: translateY(100%);
-    opacity: 0%;
-  }
-  to {
-    transform: translateY(0%);
-    opacity: 100%;
-  }
-}
-@keyframes icons-animation {
-  from {
-    transform: translateY(100%);
-    opacity: 0%;
-  }
-  to {
-    transform: translateY(0%);
-    opacity: 100%;
-  }
-}
-@-webkit-keyframes me-animation {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-@keyframes me-animation {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
 nav {
   width: 50vw;
   margin: 0 auto;
@@ -397,7 +321,7 @@ nav {
 
 .nav__contact {
   background: linear-gradient(to left, #38d39f, #38a4d3);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -417,6 +341,7 @@ nav {
   nav {
     width: 95vw;
     height: 50px;
+    margin: 0 auto;
   }
 }
 .projects h1 {
@@ -460,12 +385,12 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  opacity: 0%;
+  opacity: 0;
   transition: opacity 0.4s ease-in-out;
   text-align: center;
 }
 .project__desc:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .project__buttons {
@@ -530,7 +455,7 @@ nav {
   }
 
   .project__desc {
-    opacity: 100%;
+    opacity: 1;
   }
 
   .project__buttons {
@@ -750,5 +675,81 @@ footer P {
   }
   .footer__links ul {
     width: 100%;
+  }
+}
+@-webkit-keyframes header1 {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes header1 {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes main-text {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes main-text {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes icons-animation {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes icons-animation {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes me-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes me-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }/*# sourceMappingURL=style.css.map */
