@@ -206,14 +206,26 @@ form {
           background-clip: text;
 }
 
+.hero__header1 {
+  -webkit-animation: header1 1s ease-in forwards;
+          animation: header1 1s ease-in forwards;
+}
+
 .hero__text {
   margin: 20px 0;
+}
+
+.hero__desc {
+  -webkit-animation: main-text 1.5s ease-in forwards;
+          animation: main-text 1.5s ease-in forwards;
 }
 
 .hero__icons {
   width: 200px;
   display: flex;
   justify-content: space-between;
+  -webkit-animation: icons-animation 2s ease-in forwards;
+          animation: icons-animation 2s ease-in forwards;
 }
 
 .hero__icon {
@@ -233,15 +245,25 @@ form {
   color: #d7221a;
 }
 
+.github__icon {
+  color: black;
+}
+
 .hero__splash {
   position: absolute;
   z-index: -1;
   right: -500px;
 }
 
+.hero__me {
+  -webkit-animation: me-animation 3s ease-in forwards;
+          animation: me-animation 3s ease-in forwards;
+}
+
 @media (max-width: 1175px) {
   .hero__me {
     width: 400px;
+    margin: 30px 0;
   }
 
   .hero__splash {
@@ -269,6 +291,82 @@ form {
 @media (max-width: 480px) {
   .hero__me {
     width: 250px;
+  }
+}
+@-webkit-keyframes header1 {
+  from {
+    transform: translateY(-100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
+@keyframes header1 {
+  from {
+    transform: translateY(-100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
+@-webkit-keyframes main-text {
+  from {
+    transform: translateX(-50%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
+@keyframes main-text {
+  from {
+    transform: translateX(-50%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
+@-webkit-keyframes icons-animation {
+  from {
+    transform: translateY(100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+}
+@keyframes icons-animation {
+  from {
+    transform: translateY(100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+}
+@-webkit-keyframes me-animation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes me-animation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
   }
 }
 nav {
@@ -614,7 +712,7 @@ nav {
 }
 footer {
   width: 100vw;
-  height: 450px;
+  height: 300px;
   background-color: #242424;
   display: flex;
   justify-content: center;
