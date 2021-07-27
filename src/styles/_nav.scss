@@ -17,6 +17,9 @@ nav {
 .nav__list-item {
   margin: 0 20px;
 
+  a {
+    color: black;
+  }
   &:hover {
     cursor: pointer;
   }
@@ -25,12 +28,14 @@ nav {
 .nav__contact {
   background: $gradient;
   padding: 0.5rem 1rem;
-  color: white;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  a {
+    color: white;
+  }
 }
 
 @media (max-width: 880px) {

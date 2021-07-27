@@ -13,7 +13,7 @@ function Skills() {
   ]
 
   return (
-    <div className='skills section'>
+    <div className='skills section' id='skills'>
       <h1>This is my tech stack</h1>
       <div className='computer__screen'>
         <div className='skills__icons'>

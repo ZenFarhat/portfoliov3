@@ -72,6 +72,7 @@ a {
   flex-direction: column;
   border-radius: 20px;
   padding: 1rem;
+  box-shadow: 0px 0px 25px black;
 }
 
 form {
@@ -289,6 +290,9 @@ nav {
 .nav__list-item {
   margin: 0 20px;
 }
+.nav__list-item a {
+  color: black;
+}
 .nav__list-item:hover {
   cursor: pointer;
 }
@@ -296,12 +300,14 @@ nav {
 .nav__contact {
   background: linear-gradient(to left, #38d39f, #38a4d3);
   padding: 0.5rem 1rem;
-  color: white;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+}
+.nav__contact a {
+  color: white;
 }
 
 @media (max-width: 880px) {

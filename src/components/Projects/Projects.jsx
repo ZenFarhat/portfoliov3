@@ -10,7 +10,7 @@ import portfolio from '../../assets/portfoliov1.JPG'
 
 function Projects() {
   return (
-    <div className='projects section'>
+    <div className='projects section' id='projects'>
       <h1>
         Take a look through my <span className='base__span'>projects</span>
       </h1>
