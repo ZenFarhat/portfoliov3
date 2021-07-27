@@ -1,0 +1,33 @@
+footer {
+  width: 100vw;
+  height: 450px;
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  P {
+    color: white;
+  }
+}
+
+.footer__links {
+  margin: 50px;
+
+  width: 30%;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer__logo {
+  color: white;
+  text-decoration: none;
+  font-size: 4rem;
+}

@@ -457,4 +457,37 @@ nav {
 
 .node-icon {
   color: #87bf00;
+}
+
+footer {
+  width: 100vw;
+  height: 450px;
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer P {
+  color: white;
+}
+
+.footer__links {
+  margin: 50px;
+  width: 30%;
+}
+.footer__links ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.footer__links ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__logo {
+  color: white;
+  text-decoration: none;
+  font-size: 4rem;
 }/*# sourceMappingURL=style.css.map */
