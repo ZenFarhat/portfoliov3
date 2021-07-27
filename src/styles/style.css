@@ -6,7 +6,8 @@
   font-family: "Lato", sans-serif;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -188,6 +189,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .hero__text-section {
@@ -243,8 +245,6 @@ form {
   }
 
   .hero__splash {
-    position: absolute;
-    z-index: -1;
     right: -720px;
   }
 }

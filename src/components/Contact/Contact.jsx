@@ -52,7 +52,7 @@ function Contact() {
   }
 
   return (
-    <div className='contact section'>
+    <div className='contact section' id='contact'>
       <img src={splash} className='contact__splash' alt='splash-svg' />
       <h1>
         Now let's do <span className='base__span'>something.</span>

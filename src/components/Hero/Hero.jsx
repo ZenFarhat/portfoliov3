@@ -10,7 +10,7 @@ function Hero() {
       <div className='hero__text-section'>
         <div className='hero__header hero__text'>
           <h1 className='hero__header1'>
-            Hey! I'm <span className='base__span'>Zen Farhat</span>
+            Hello, I'm <span className='base__span'>Zen Farhat</span>
           </h1>
         </div>
         <h3 className='hero__desc hero__text'>
