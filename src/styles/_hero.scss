@@ -49,3 +49,39 @@
   z-index: -1;
   right: -500px;
 }
+
+@media (max-width: 1175px) {
+  .hero__me {
+    width: 400px;
+  }
+
+  .hero__splash {
+    position: absolute;
+    z-index: -1;
+    right: -720px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero__me {
+    width: 200px;
+  }
+  .hero__splash {
+    right: -940px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__me {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__me {
+    width: 250px;
+  }
+}

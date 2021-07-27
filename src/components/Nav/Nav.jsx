@@ -9,8 +9,8 @@ function Nav() {
       </div>
       <div className='nav__links'>
         <ul className='nav__list'>
-          <li className='nav__list-item'>Skills</li>
-          <li className='nav__list-item'>Projects</li>
+          <li className='nav__list-item nav__skills'>Skills</li>
+          <li className='nav__list-item nav__projects'>Projects</li>
           <li className='nav__list-item nav__contact'>Contact</li>
         </ul>
       </div>

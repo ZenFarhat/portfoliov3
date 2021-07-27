@@ -32,3 +32,15 @@ nav {
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
+
+@media (max-width: 880px) {
+  .nav__skills,
+  .nav__projects {
+    display: none;
+  }
+
+  nav {
+    width: 95vw;
+    height: 50px;
+  }
+}
