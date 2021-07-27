@@ -292,6 +292,10 @@ form {
   .hero__me {
     width: 250px;
   }
+
+  .hero__text {
+    font-size: 1rem;
+  }
 }
 nav {
   width: 50vw;

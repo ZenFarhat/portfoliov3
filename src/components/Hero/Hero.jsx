@@ -14,7 +14,7 @@ function Hero() {
           </h1>
         </div>
         <h3 className='hero__desc hero__text'>
-          Dedicated, <span className='base__span'>frontend developer </span>
+          Dedicated <span className='base__span'>frontend developer </span>
           known for designing, developing, and delivering custom web
           applications and software solutions. Applies a variety of front-end
           technologies in diverse website development projects.
