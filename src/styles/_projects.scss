@@ -1,0 +1,98 @@
+// PROJECT CONTAINER
+.projects {
+  h1 {
+    margin: 20px 0;
+  }
+}
+
+.project__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+// INDIVIDUAL PROJECT STYLING
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px gray;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  flex: none;
+
+  h3 {
+    color: white;
+  }
+
+  margin: 20px;
+}
+
+.project__desc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0%;
+  transition: opacity 0.4s ease-in-out;
+  text-align: center;
+
+  &:hover {
+    opacity: 100%;
+  }
+}
+
+.project__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+
+  button {
+    padding: 1rem;
+    font-family: inherit;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    transition: all 0.1s ease-in-out;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.project__blue {
+  background: rgba(#38b8bc, 0.85);
+}
+
+.project__red {
+  background: rgba(#f74141, 0.85);
+}
+
+.project__green {
+  background: rgba(#34a530, 0.85);
+}
+
+.project__purple {
+  background: rgba(#9b12bd, 0.85);
+}
