@@ -256,8 +256,8 @@ form {
 }
 
 .hero__me {
-  -webkit-animation: me-animation 3s ease-in forwards;
-          animation: me-animation 3s ease-in forwards;
+  -webkit-animation: me-animation 1s ease-in forwards;
+          animation: me-animation 1s ease-in forwards;
 }
 
 @media (max-width: 1175px) {
