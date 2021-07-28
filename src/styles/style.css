@@ -323,9 +323,35 @@ nav {
   cursor: pointer;
 }
 
+.animated__nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15rem;
+  display: inline-block;
+  padding: 15px 15px;
+  position: relative;
+}
+.animated__nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: linear-gradient(to left, #38d39f, #38a4d3);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.animated__nav a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 .nav__contact {
   background: linear-gradient(to left, #38d39f, #38a4d3);
   padding: 0.5rem 0.5rem;
+  letter-spacing: 0.15rem;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -344,8 +370,13 @@ nav {
 
   nav {
     width: 95vw;
-    height: 50px;
+    height: 60px;
     margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .nav__logo h2 {
+    margin-bottom: 2px;
   }
 }
 .projects h1 {
@@ -669,7 +700,7 @@ footer P {
 .footer__logo {
   color: white;
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 @media (max-width: 500px) {
