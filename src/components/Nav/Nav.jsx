@@ -5,7 +5,9 @@ function Nav() {
   return (
     <nav>
       <div className='nav__logo' id='nav'>
-        <h2>Zen Farhat</h2>
+        <a href='#nav'>
+          <h2>Zen Farhat</h2>
+        </a>
       </div>
       <div className='nav__links'>
         <ul className='nav__list'>
