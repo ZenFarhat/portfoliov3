@@ -6,7 +6,7 @@ function Nav() {
     <div className='nav__parent'>
       <nav>
         <div className='nav__logo' id='nav'>
-          <a href='#nav'>
+          <a href='#hero'>
             <h2>Zen Farhat</h2>
           </a>
         </div>

@@ -13,6 +13,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .base__span {
@@ -72,6 +74,10 @@
 }
 
 @media (max-width: 1175px) {
+  .hero__text-section {
+    width: 400px;
+  }
+
   .hero__me {
     width: 400px;
     margin: 30px 0;
