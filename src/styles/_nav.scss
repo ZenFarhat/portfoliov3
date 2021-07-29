@@ -1,3 +1,10 @@
+.nav__parent {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 5;
+}
+
 nav {
   width: 50vw;
   margin: 0 auto;
@@ -6,6 +13,8 @@ nav {
   align-items: center;
   padding: 1rem 0;
   height: 100px;
+
+  top: 0;
 }
 
 .nav__list {
