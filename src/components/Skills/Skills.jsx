@@ -15,20 +15,16 @@ function Skills() {
   return (
     <div className='skills section' id='skills'>
       <h1>This is my tech stack</h1>
-      <div className='computer__screen'>
-        <div className='skills__icons'>
-          {skills.map((skill) => {
-            return (
-              <div className='skill__container'>
-                <i class={skill.class}></i>
-                <p className='skill__text'>{skill.text}</p>
-              </div>
-            )
-          })}
-        </div>
+      <div className='skills__container'>
+        {skills.map((skill) => {
+          return (
+            <div className='skill__card'>
+              <i class={skill.class}></i>
+              <p className='skill__text'>{skill.text}</p>
+            </div>
+          )
+        })}
       </div>
-      <div className='computer__neck'></div>
-      <div className='computer__leg'></div>
     </div>
   )
 }
