@@ -5,7 +5,7 @@ import resume from '../../assets/Zen_Farhat_-_Front-End_developer WEB.pdf'
 function Footer() {
   return (
     <footer>
-      <a href='#nav' className='footer__logo'>
+      <a href='#hero' className='footer__logo'>
         ZF
       </a>
       <div className='footer__links'>
