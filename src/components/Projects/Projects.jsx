@@ -16,7 +16,6 @@ function Projects() {
       </h1>
       <div className='project__container'>
         <Project
-          colour='blue'
           img={amazonProject}
           name='Amazon Replication'
           tech='HTML, CSS, React, Redux, SASS'
@@ -24,7 +23,6 @@ function Projects() {
           codeLink='https://github.com/ZenFarhat/amazon-clone'
         />
         <Project
-          colour='red'
           img={movieProject}
           name='ReviewTube'
           tech='HTML, CSS, JS, React, AXIOS'
@@ -32,7 +30,6 @@ function Projects() {
           codeLink='https://github.com/ZenFarhat/reviewTube'
         />
         <Project
-          colour='green'
           name='Real Estate Brochure Site'
           tech='HTML, CSS, JS , React'
           img={realEstateProject}
@@ -40,7 +37,6 @@ function Projects() {
           codeLink='https://github.com/ZenFarhat/realestate-project'
         />
         <Project
-          colour='purple'
           name='Tesla frontend clone'
           tech='HTML, CSS, JS, React, SASS'
           img={teslaProject}
@@ -48,7 +44,6 @@ function Projects() {
           codeLink='https://github.com/ZenFarhat/tesla-clone'
         />
         <Project
-          colour='blue'
           name='Travel brochure website'
           tech='HTML, CSS, React'
           img={travelProject}
@@ -56,7 +51,6 @@ function Projects() {
           codeLink='https://github.com/ZenFarhat/TravelCo'
         />
         <Project
-          colour='red'
           tech='HTML, CSS, JS, React, SASS'
           name='Previous portfolios'
           deployLink='https://portfoliov2-f563a.web.app/'

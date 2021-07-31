@@ -9,9 +9,8 @@ function Project(props) {
         className='project'
         style={{ backgroundImage: 'url(' + props.img + ')' }}
       >
-        <div className={`project__desc project__${props.colour}`}>
+        <div className={`project__desc`}>
           <h3 className='project__name'>{props.name}</h3>
-          <div className='project__divider'></div>
           <p className='project__techstack'>{`Technologies used: ${props.tech}`}</p>
           <div className='project__buttons'>
             <a href={props.deployLink} target='_blank' rel='noreferrer'>
