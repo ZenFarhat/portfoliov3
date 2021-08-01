@@ -1,12 +1,12 @@
 import React from 'react'
 import '../../styles/style.css'
-import amazonProject from '../../assets/amazon-project.png'
-import movieProject from '../../assets/movieproject.JPG'
-import realEstateProject from '../../assets/realestate-project.JPG'
-import teslaProject from '../../assets/tesla-project.jpg'
-import travelProject from '../../assets/travelco.JPG'
+import amazonProject from '../../assets/amazon.png'
+import movieProject from '../../assets/movie.png'
+import realEstateProject from '../../assets/realestate.png'
+import teslaProject from '../../assets/tesla.png'
+import portfolio from '../../assets/portfolio.png'
+import travelProject from '../../assets/travel.png'
 import Project from './Project'
-import portfolio from '../../assets/portfoliov1.JPG'
 
 function Projects() {
   return (
@@ -53,9 +53,9 @@ function Projects() {
         <Project
           tech='HTML, CSS, JS, React, SASS'
           name='Previous portfolios'
+          img={portfolio}
           deployLink='https://portfoliov2-f563a.web.app/'
           codeLink='https://github.com/ZenFarhat/portfoliov2'
-          img={portfolio}
         />
       </div>
     </div>

@@ -18,12 +18,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 700px;
   box-shadow: 0px 0px 50px gray;
   background-position: center;
-  background-size: cover;
+  background-size: 200%;
   color: white;
+  overflow: hidden;
+  transition: background-size 0.5s ease-in;
+  transition-delay: 0.2s;
+  background-repeat: no-repeat;
+
+  &:hover {
+    .project__desc {
+      transform: translateY(0%);
+    }
+    background-size: 225%;
+  }
 
   h3 {
     color: white;
@@ -42,6 +53,9 @@
   transition: opacity 0.4s ease-in-out;
   text-align: center;
   background-color: rgba(15, 20, 30, 0.95);
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(100%);
+  backdrop-filter: blur(5px);
 }
 
 .project__buttons {
@@ -73,6 +87,24 @@
   }
 }
 
+@media (max-width: 795px) {
+  .project {
+    height: 650px;
+  }
+}
+
+@media (max-width: 675px) {
+  .project {
+    height: 500px;
+  }
+}
+
+@media (max-width: 545px) {
+  .project {
+    height: 450px;
+  }
+}
+
 @media (max-width: 500px) {
   .project {
     display: flex;
@@ -84,7 +116,6 @@
     box-shadow: 0px 0px 50px gray;
     overflow: hidden;
     background-position: center;
-    background-size: cover;
     color: white;
     flex: none;
     margin: 10px;
@@ -92,6 +123,7 @@
 
   .project__desc {
     opacity: 1;
+    transform: translateY(0%);
   }
 
   .project__buttons {
