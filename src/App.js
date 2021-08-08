@@ -9,10 +9,13 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className='App'>
-      <Hero />
+      <a href='#contact' className='contact__icon'>
+        <i class='far fa-envelope'></i>
+      </a>
       <Nav />
-      <Skills />
+      <Hero />
       <Projects />
+      <Skills />
       <Contact />
       <Footer />
     </div>
