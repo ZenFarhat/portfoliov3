@@ -9,9 +9,6 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className='App'>
-      <a href='#contact' className='contact__icon'>
-        <i class='far fa-envelope'></i>
-      </a>
       <Nav />
       <Hero />
       <Projects />

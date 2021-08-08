@@ -62,26 +62,6 @@ a {
   background-clip: text;
 }
 
-.contact__icon {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  border: 2px solid white;
-  background: $gradient;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;
-  color: black;
-
-  &:active {
-    transform: scale(0.98);
-  }
-}
-
 .fa-envelope {
   font-size: 2rem;
   color: white;

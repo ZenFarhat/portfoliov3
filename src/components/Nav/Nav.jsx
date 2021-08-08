@@ -11,11 +11,11 @@ function Nav() {
       </div>
       <div className='nav__links'>
         <ul className='nav__list'>
-          <li className='nav__list-item nav__skills animated__nav'>
-            <a href='#skills'>Skills</a>
-          </li>
           <li className='nav__list-item nav__projects animated__nav'>
             <a href='#projects'>Projects</a>
+          </li>
+          <li className='nav__list-item nav__skills animated__nav'>
+            <a href='#skills'>Skills</a>
           </li>
           <li className='nav__list-item nav__contact'>
             <a href='#contact'>Contact</a>

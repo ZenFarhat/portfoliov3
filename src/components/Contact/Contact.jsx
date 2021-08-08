@@ -6,18 +6,19 @@ import '../../styles/style.css'
 
 function Contact() {
   const [sent, setSent] = useState()
+  const [load, setLoad] = useState(false)
 
   const messageSent = (status) => {
     if (status === 'error') {
       setSent(
-        <p className='contact-error'>
+        <p className='contact-error contact__sent-message'>
           Something went wrong sending your message
         </p>
       )
     } else {
       setSent(
-        <p className='contact-success'>
-          Your message has been sent! I will get back to you ASAP.
+        <p className='contact-success contact__sent-message'>
+          Your message has been sent! <br /> I will get back to you ASAP.
         </p>
       )
     }
@@ -35,18 +36,21 @@ function Contact() {
         'service_hvielbl',
         'template_jx2rpfn',
         e.target,
-        'user_Tl9V0BUgoVZYVuUAbt0Lo'
+        'user_Tl9V0BUgoVZYVuUAbt0Lo',
+        setLoad(true)
       )
       .then(
         (result) => {
           console.log(result)
           clearForm()
           messageSent()
+          setLoad(false)
         },
         (error) => {
           console.log(error.text)
           clearForm()
           messageSent('error')
+          setLoad(false)
         }
       )
   }
@@ -58,7 +62,7 @@ function Contact() {
         Now let's do <span className='base__span'>something.</span>
       </h1>
       <div className='form-container'>
-        <form onSubmit={sendEmail} id='email-form'>
+        <form onSubmit={sendEmail} id='email-form' className='email__form'>
           <input
             type='text'
             className='form-input'
@@ -84,7 +88,8 @@ function Contact() {
             Send message
           </button>
         </form>
-        <p>{sent}</p>
+        {load ? <i class='fas fa-spinner'></i> : ''}
+        {sent}
       </div>
     </div>
   )
